@@ -1,5 +1,5 @@
 {
-  "name": "Balkan Book",
+  "name": "BalkanBook",
   "version": "1.2.0",
   "dependencies": {
     "handlebars": "^4.0.10",
