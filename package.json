@@ -1,0 +1,9 @@
+{
+  "name": "Balkan Book",
+  "version": "1.2.0",
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "sammy": "^0.7.6"
+  }
+}
