@@ -26,3 +26,4 @@ let auth = (() => {
         saveSession, login, register, logout, isAuthed
     }
 })();
+
