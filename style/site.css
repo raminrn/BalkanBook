@@ -74,6 +74,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 0 0 1rem;
     /* background: url('https://image.ibb.co/cO9Lxq/login-bg.jpg') no-repeat center center / cover; */
     text-align: center;
     height: 100vh;
@@ -448,8 +449,12 @@ footer {
         height: auto;
     }
 
-    #showcase .showcase-text, .showcase-text {
-        font-size: 2rem;
+    #showcase .showcase-text, .showcase-text, .login-text{
+        font-size: 1.6rem;
+    }
+
+    #showcase{
+        padding: 0;
     }
 
     .showcase-description {
@@ -467,4 +472,5 @@ footer {
     #main-footer {
         padding-top: 1rem;
     }
+
 }
