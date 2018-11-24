@@ -29,6 +29,7 @@ h6 {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    color: #222222;
 }
 
 .wrapper {
@@ -42,6 +43,7 @@ h6 {
     display: flex;
     flex-direction: column;
     flex: 5;
+    padding: 0 0 0 1rem;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -51,6 +53,7 @@ h6 {
     display: flex;
     flex-direction: column;
     flex: 5;
+    padding: 0 1rem 0 0;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -61,7 +64,7 @@ h6 {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 10px 0 0 0;
+    padding: 1rem 0 0 0;
 }
 
 .logo img {
@@ -93,8 +96,7 @@ h6 {
 
 #showcase .secondary-btn {
     width: 40%;
-    margin: auto;
-    margin-top: 1.5rem;
+    margin: 1.5rem auto auto;
 }
 
 .login-text{
@@ -229,25 +231,29 @@ label {
 .content {
     margin: auto;
     padding: 20px;
-    max-width: 800px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    background: #ffffff;
+    color: #181818;
+    width: 70%;
+    height: 70%;
 }
 
 .menu {
-    background: #4d4d4d;
-    margin: auto;
-    padding: 20px;
-    max-width: 800px;
+    background: transparent;
+    padding: 1.2rem 0;
+    text-align: center;
+    /*margin: 0 auto;*/
+    /*max-width: 800px;*/
 }
 
 .menu > a {
     color: #e0e0e0;
     text-decoration: none;
-
     padding: 5px 10px;
 }
 
 .menu > a:hover {
-    background: #7f7f7f;
+    border-bottom: 2px solid #FF0052;
 }
 
 .loading {
@@ -256,7 +262,6 @@ label {
 
 .chirps {
     border: 1px solid #e0e0e0;
-    border-radius: 10px;
 }
 
 .chirp {
@@ -266,6 +271,7 @@ label {
 .titlebar {
     overflow: auto;
     padding: 10px;
+    text-align: center;
 }
 
 .chirp-author {
@@ -302,8 +308,6 @@ label {
 
 .chirper {
     border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    margin-bottom: 10px;
     overflow: auto;
     vertical-align: bottom;
     position: relative;
@@ -311,9 +315,7 @@ label {
 
 .chirp-form {
     text-align: right;
-    margin: 10px;
     display: inline-block;
-    width: 300px;
 }
 
 .chirp-input {
@@ -381,8 +383,7 @@ label {
 
 .form > * {
     display: block;
-    margin: auto;
-    margin-bottom: 5px;
+    margin: auto auto 5px;
 }
 
 .register-content{
@@ -445,8 +446,13 @@ footer {
     }
 
     #left {
-        margin-top: 12vh;
+        margin-top: 7vh;
         height: auto;
+        padding: 0;
+    }
+
+    #right{
+        padding: 0;
     }
 
     #showcase .showcase-text, .showcase-text, .login-text{
@@ -459,6 +465,10 @@ footer {
 
     .showcase-description {
         font-size: 1rem;
+    }
+
+    #signin{
+        padding-bottom: 3rem;
     }
 
     #signin .logo {
